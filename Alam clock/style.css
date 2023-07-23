@@ -1,0 +1,175 @@
+/* GLobal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: math;
+  background-color: #a2bad4;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  font-family: math;
+  background-color: rgb(247, 245, 243);
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border-radius: 1px;
+  transition: all 0.3s ease-in-out;
+}
+select {
+  appearance: none;
+  outline: black;
+  font-family: math;
+  background-color: rgb(250, 248, 244);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  margin-right: 0.3rem;
+  cursor: pointer;
+  color: #01060c;
+  border-color: black;
+}
+
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+/* End GLobal Styles */
+
+.main-container {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #a2bad4;
+}
+
+.clock-container {
+  padding: 2rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  
+  background-color: #b1d66b;
+}
+
+.current-time {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+
+.alarm-form {
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.submit-button {
+  border-color: black;
+  border: 10px;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.set-alarm-container {
+  width: 100%;
+}
+
+.set-alarm-container .set-alarm-container-title {
+  color: rgb(138, 5, 87);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.alarm {
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+
+}
+.alarm .delete-alarm {
+  border-radius: 2rem;
+  background-color: rgba(35, 6, 197, 0.918);
+  font-weight: bold;
+  color: rgb(250, 249, 246);
+  font-size:xx-medium;
+}
+
+.time {
+  color: #01060c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.btn:focus,
+.btn:hover {
+  box-shadow: red 2px 2px 2px 1px inset, #fff -2px -2px 10px 1px inset;
+}
+
+.page-title{
+  background-color: #0E141B;
+  align-items: center;
+  text-align: center;
+  color: wheat;
+  font-size: 1.7rem;
+}
+
+
+#about-developer > img{
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+#about-developer h2{
+  font-size: 2.5rem;
+  font-family: math;
+  color: var(--dark_bg);
+}
+#about-developer small{
+  color: rgb(58, 41, 41);
+  font-size: 1.5rem;
+}
+#description{
+  display: block;
+  margin-top: 5%;
+  color: var(--dark_bg);
+}
+#about-developer{
+  width: 450px;
+  margin-left: 3%;
+  padding: 2%;
+  position: relative;
+  background-color: #67dfa7;
+  box-shadow: rgba(167, 4, 4, 0.25) 0px 0.0625em 0.0625em, rgba(167, 4, 4, 0.25) 0px 0.125em 0.5em, rgba(167, 4, 4, 0.25) 0px 0px 0px 1px inset;
+}
+
+
+/* style of devices of screen size less than 768px */
+@media only screen and (min-width: 600px) {
+  /* adding padding to container */
+  .main-container {
+    padding-block: 2rem;
+  }
+  .clock-container{
+      justify-content: center;
+      border-radius: 50px;
+      width: 450px;
+      min-height: auto;
+  }
+}
