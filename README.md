@@ -5,11 +5,11 @@ This is a repository for Alarm Clock Developed using Vanilla JavaScript, HTML, C
 
 It is developed to create a soothing Experience with powerful features and clean interface.
 
-**Problem Statement**
+# Problem Statement
 
 Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
 
-**Features Required**
+# Features Required
 
 **Clock face**
 
